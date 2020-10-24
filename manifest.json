@@ -2,10 +2,14 @@
     "name": "Getting Started Example",
     "version": "1.0",
     "description": "Build an Extension!",
-    "permissions": ["storage"],
-    "page_action": {
-        "default_popup": "popup.html",
+    "browser_action": {
+        "default_popup": "popup_2.html",
         "default_icon": "icon.png"
     },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": ["declarativeContent", "storage", "activeTab"],
     "manifest_version": 2
 }

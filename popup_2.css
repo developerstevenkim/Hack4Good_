@@ -1,0 +1,77 @@
+body {
+    width: 400px;
+}
+
+.logo {
+    width: 100%;
+    line-height: 1.2rem;
+    text-align: center;
+    color: white;
+    background-color: darkolivegreen;
+    border: 1px solid black;
+}
+
+.extensionBox {
+    padding: 5px;
+}
+
+.elementsContainer {
+    width: 100%;
+}
+
+.search {
+    font-size: 1rem;
+    width: 100%;
+}
+
+.material-icons {
+    line-height: 1rem;
+    margin-left: 15px;
+    color: black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 180px auto;
+    margin-top: 10px;
+    grid-row-gap: 5px;
+    background-color: #EEEEEE;
+}
+
+.grid-item {
+    font-size: 20px;
+    text-align: center;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8 {
+    padding: 5px;
+    border-bottom: 5px solid white;
+    
+}
+
+.container {
+    display: grid;
+}
+
+.cardMainImg {
+    object-fit: cover;
+    width: 100%;
+    max-height: 130px;
+}
+
+.cardOptionImg {
+    object-fit: cover;
+    width: 100%;
+    max-height: 80px;
+}
+
+.mainDescribtion {
+    font-size: 0.7rem;
+}
