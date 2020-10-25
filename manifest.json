@@ -1,11 +1,15 @@
 {
-    "name": "Getting Started Example",
+    "name": "Mindful Shopper",
     "version": "1.0",
-    "description": "Build an Extension!",
-    "permissions": ["storage"],
-    "page_action": {
-        "default_popup": "popup.html",
+    "description": "Be a mindful shopper!",
+    "browser_action": {
+        "default_popup": "defPopup.html",
         "default_icon": "icon.png"
     },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": ["declarativeContent", "storage", "activeTab"],
     "manifest_version": 2
 }

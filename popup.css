@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #733eb5;
+    width: 90vw;
+    height: 35px;
+    position: absolute;
+    padding-top: 4px;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+h2 {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #733eb5;
+    width: 50vw;
+    height: 35px;
+    position: absolute;
+    padding-top: 4px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 12%;
+}
+
+form {
+    width: 75vw;
+    height: 25px;
+    position: absolute;
+    margin-top: 8%;
+}
+
+#keyword {
+    width: 75vw;
+    height: 25px;
+    position: absolute;
+    margin-top: 10%;
+}
+
+#current {
+    width: 75vw;
+    height: 25px;
+    position: absolute;
+    margin-top: 15%;
+}
