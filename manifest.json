@@ -2,14 +2,14 @@
     "name": "Second Choice ",
     "version": "1.0",
     "description": "Build an Extension!",
-    "permissions": ["storage"],
     "browser_action": {
-        "default_popup": "popup_2.html",
+        "default_popup": "popup.html",
         "default_icon": {
             "16": "icons/icon16.png",
             "24": "icons/icon24.png",
             "32": "icons/icon32.png"
-        },
+        }
+    },
     "icons": {
         "16": "icons/icon16.png",
         "48": "icons/icon48.png",
