@@ -9,10 +9,19 @@ welcomeBtn.onclick = function(){
     otherScreen.className = "";
 }
 
-/*
-welcomeBtn.addEventListener("click", changePage);
-function changePage() {
-    console.log("button pressed");
-    chrome.browserAction.setPopup({popup: 'popup_2.html'});
-  }
-  */
+var image1 = document.getElementById("img1");
+var image2 = document.getElementById("img2");
+var image3 = document.getElementById("img3");
+image1.onclick = function(){
+    var newURL = "https://www.thredup.com/product/women-white-house-black-market-white-short-sleeve-t-shirt/83702873?query_id=433195387835179008&result_id=433195392008486914";
+    chrome.tabs.create({ url: newURL });
+}
+image2.onclick = function(){
+    var newURL = "https://www.depop.com/products/alicekemp17-stunning-90s-vintage-white-padded/";
+    chrome.tabs.create({ url: newURL });
+}
+image3.onclick = function(){
+    var newURL = "https://www.thredup.com/product/women-cotton-old-navy-white-short-sleeve-t-shirt/84523392?query_id=433195387835179008&result_id=433195392008486914";
+    chrome.tabs.create({ url: newURL });
+}
+
