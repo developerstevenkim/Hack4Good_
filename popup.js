@@ -1,7 +1,7 @@
 
-var welcomeBtn = document.getElementById("welcomeBtn");
+var keywordBtn = document.getElementById("keywordBtn");
 
-welcomeBtn.onclick = function(){
+keywordBtn.onclick = function(){
     let firstScreen = document.getElementById('welcomeScreen');
     let otherScreen = document.getElementById('mainScreen');
 
@@ -9,10 +9,12 @@ welcomeBtn.onclick = function(){
     otherScreen.className = "";
 }
 
-/*
-welcomeBtn.addEventListener("click", changePage);
-function changePage() {
-    console.log("button pressed");
-    chrome.browserAction.setPopup({popup: 'popup_2.html'});
-  }
-  */
+var currentBtn = document.getElementById("currentBtn");
+
+currentBtn.onclick = function(){
+    let firstScreen = document.getElementById('welcomeScreen');
+    let otherScreen = document.getElementById('mainScreen');
+
+    firstScreen.className = "hidden";
+    otherScreen.className = "";
+}

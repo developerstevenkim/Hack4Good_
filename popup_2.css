@@ -1,5 +1,6 @@
 body {
     width: 400px;
+    text-align: center;
 }
 
 .hidden {
@@ -11,8 +12,38 @@ body {
     line-height: 1.2rem;
     text-align: center;
     color: white;
-    background-color: darkolivegreen;
-    border: 1px solid black;
+    padding: 2px;
+    background: #2D2DB5;
+    background: -moz-linear-gradient(left, #2D2DB5 0%, #6C31B5 100%);
+    background: -webkit-linear-gradient(left, #2D2DB5 0%, #6C31B5 100%);
+    background: linear-gradient(to right, #2D2DB5 0%, #6C31B5 100%);
+    border-radius: 5px;
+}
+
+.extensionBox {
+    position: relative;
+    text-align: center;
+}
+
+button {
+    margin: 0 auto;
+}
+
+h2 {
+    width: 100%;
+    line-height: 1.2rem;
+    text-align: center;
+    color: white;
+    padding: 2px;
+    background: #2D2DB5;
+    background: -moz-linear-gradient(left, #2D2DB5 0%, #6C31B5 100%);
+    background: -webkit-linear-gradient(left, #2D2DB5 0%, #6C31B5 100%);
+    background: linear-gradient(to right, #2D2DB5 0%, #6C31B5 100%);
+    border-radius: 5px;
+}
+
+#currentBtn {
+    margin-bottom: 14px;
 }
 
 .extensionBox {
@@ -76,6 +107,17 @@ body {
     max-height: 80px;
 }
 
-.mainDescribtion {
+.mainDescription {
     font-size: 0.7rem;
+}
+
+.lowerBar{
+    width: 100%;
+    height: 10px;
+    line-height: 0.5rem;
+    background: #2D2DB5;
+    border-radius: 5px;
+    background: -moz-linear-gradient(left, #2D2DB5 0%, #6C31B5 100%);
+    background: -webkit-linear-gradient(left, #2D2DB5 0%, #6C31B5 100%);
+    background: linear-gradient(to right, #2D2DB5 0%, #6C31B5 100%);
 }
