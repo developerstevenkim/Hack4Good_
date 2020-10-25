@@ -1,6 +1,7 @@
 {
-    "name": "Getting Started Example",
+    "name": "Second Choice ",
     "version": "1.0",
+<<<<<<< Updated upstream
     "description": "Build an Extension!",
     "permissions": ["storage"],
     "page_action": {
@@ -10,6 +11,12 @@
             "24": "icons/icon24.png",
             "32": "icons/icon32.png"
         }
+=======
+    "description": "An extension that displays environmental + social impact of clothing(?) brands",
+    "browser_action": {
+        "default_popup": "popup_2.html",
+        "default_icon": "icon.png"
+>>>>>>> Stashed changes
     },
     "icons": {
         "16": "icons/icon16.png",
