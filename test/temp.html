@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <p>Click the button to search a string for "W3Schools", and display the position of the match.</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo"></p>
+
+    <!-- https://www2.hm.com/en_ca/productpage.0923134008.html -->
+
+    <script>
+        function myFunction() {
+            var str = "Visit W3Schools!";
+            var n = str.search("W3Schools");
+            document.getElementById("demo").innerHTML = n;
+        }
+        var bodyText = document.querySelector('body').innerText;
+        console.log(typeof (bodyText));
+        var myNum = bodyText.match(new RegExp('weight|size|composition|art.', 'gi'));
+        console.log(myNum);
+        //document.getElementById('item4').innerHTML = result;
+    </script>
+
+</body>
+
+</html>
